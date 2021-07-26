@@ -134,14 +134,13 @@
                             <imageReference key="image" image="sun.min" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="sunItemTapped:" destination="BYZ-38-t0r" id="b3u-iH-LCN"/>
+                                <action selector="sunItemTapped:" destination="BYZ-38-t0r" id="1i8-vf-8Jp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="buttonCOutlet" destination="VsD-gU-4MZ" id="9c3-8T-2Hh"/>
                         <outlet property="buttonEOutlet" destination="jis-DC-my4" id="Yfc-6y-MuJ"/>
-                        <outletCollection property="styleOutletsCollection" destination="8bC-Xf-vdC" collectionClass="NSMutableArray" id="dk3-6d-TUR"/>
                         <outletCollection property="styleOutletsCollection" destination="jis-DC-my4" collectionClass="NSMutableArray" id="XsF-8F-cgf"/>
                         <outletCollection property="styleOutletsCollection" destination="kdw-fV-LQg" collectionClass="NSMutableArray" id="3EC-2e-ob6"/>
                         <outletCollection property="styleOutletsCollection" destination="V5q-hn-xXl" collectionClass="NSMutableArray" id="ceH-J6-iYc"/>
