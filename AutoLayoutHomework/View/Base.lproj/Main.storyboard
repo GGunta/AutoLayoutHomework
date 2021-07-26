@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N8R-Ua-7nI">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -13,15 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ThemeViewController" customModule="AutoLayoutHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqc-FY-8GR">
-                                <rect key="frame" x="16" y="519" width="343" height="60"/>
+                                <rect key="frame" x="100" y="892" width="610" height="80"/>
                                 <color key="backgroundColor" red="0.87936305209999999" green="0.89000000000000001" blue="0.6067868287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="Inl-Bp-kRs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="Inl-Bp-kRs">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="60" id="XsK-te-fuY">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="50"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                     </constraint>
                                 </constraints>
@@ -31,13 +34,16 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsD-gU-4MZ">
-                                <rect key="frame" x="16" y="587" width="343" height="60"/>
+                                <rect key="frame" x="100" y="980" width="610" height="80"/>
                                 <color key="backgroundColor" red="0.87936305209999999" green="0.89000000000000001" blue="0.6067868287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ZyS-Wh-uCo">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="50"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="c8G-Dl-ztv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="c8G-Dl-ztv">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                    </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="21"/>
                                 <state key="normal" title="Button C">
@@ -45,13 +51,14 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdw-fV-LQg">
-                                <rect key="frame" x="16" y="67" width="150" height="60"/>
+                                <rect key="frame" x="100" y="73" width="283.5" height="80"/>
                                 <color key="backgroundColor" red="0.61962917809999996" green="0.53198268810000005" blue="0.90693908379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="IGA-wu-IxZ">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="50"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="vDn-3S-Z9r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="vDn-3S-Z9r"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="21"/>
                                 <state key="normal" title="Button D">
@@ -62,10 +69,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jis-DC-my4">
-                                <rect key="frame" x="209" y="67" width="150" height="60"/>
+                                <rect key="frame" x="426.5" y="73" width="283.5" height="80"/>
                                 <color key="backgroundColor" red="0.74844278190000002" green="1" blue="0.25893888030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="VoN-JL-8kv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="VoN-JL-8kv"/>
                                     <constraint firstAttribute="height" constant="60" id="Wjs-uk-MsF">
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                     </constraint>
@@ -76,13 +83,16 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5q-hn-xXl">
-                                <rect key="frame" x="16" y="451" width="343" height="60"/>
+                                <rect key="frame" x="100" y="804" width="610" height="80"/>
                                 <color key="backgroundColor" red="0.87936305209999999" green="0.89000000000000001" blue="0.6067868287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="SyH-AA-v5L">
+                                        <variation key="heightClass=compact-widthClass=compact" constant="50"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="rWe-jy-L74"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="rWe-jy-L74">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                    </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="21"/>
                                 <state key="normal" title="Button A">
@@ -158,7 +168,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N8R-Ua-7nI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sAL-nS-TYK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.94278717040000004" green="0.89578717900000004" blue="0.222096134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.94278717040000004" green="0.89578717900000004" blue="0.222096134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
